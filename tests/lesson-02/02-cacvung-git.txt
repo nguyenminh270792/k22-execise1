@@ -1,0 +1,41 @@
+# Git: Bài 2 - Các vùng trong git
+```Trong một folder mới được tạo ra, mình thực hiện lần lượt các lệnh sau. Hãy liệt kê các
+file theo từng vùng sau khi thao tác một loạt các lệnh sau (sẽ rất tuyệt nếu bạn không
+chạy lệnh trên máy thật, mà bạn suy nghĩ trong đầu để ra được kết quả; bạn sẽ nhớ rất
+lâu đấy ^^):
+a. Tạo 3 file: file1, file2, file3
+b. Chạy lệnh: git init
+c. Chạy lệnh: git commit -m”init project”
+d. Chạy lệnh: git add file1
+e. Chạy lệnh: git commit -m”add file1”
+f. Chạy lệnh: git commit -m”add file”
+```
+
+**Anwsers**
+
+    a. Tạo 3 file: file1, file2, file3: thuộc vùng local
+
+    b. git init: thuộc vùng working directory
+
+    c. Chạy lệnh: git commit -m”init project”
+        - syntax error
+        - Format đúng: git commit -m ”init project”
+        - Nếu chạy lệnh format đúng thì chưa gì để commit
+
+    d. git add file1: file 1 sẽ thuộc vùng staging
+    
+    e. tương tự (c)
+        - syntax error
+        - git commit -m ”add file1”
+        - nếu chạy lệnh trên, file 1 sẽ thuộc vùng repository
+
+
+    f. tương tự (c)
+        - syntax error
+        - git commit -m ”add file”
+        - Nếu chạy lệnh format đúng thì chưa gì để commit (đã run lệnh để double-check :D hihi)
+
+
+    
+
+
