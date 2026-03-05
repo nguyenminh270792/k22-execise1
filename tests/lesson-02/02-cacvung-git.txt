@@ -34,8 +34,3 @@ f. Chạy lệnh: git commit -m”add file”
         - syntax error
         - git commit -m ”add file”
         - Nếu chạy lệnh format đúng thì chưa gì để commit (đã run lệnh để double-check :D hihi)
-
-
-    
-
-
