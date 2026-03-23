@@ -30,4 +30,13 @@ test('register a new user', async ({ page }) => {
         await page.locator('//button[text()="Register"]').click();
     });
 
+    await test.step('Click on "Register" button', async () => {
+        await page.locator('//button[text()="Register"]').click();
+    });
+
+    await test.step('Check the registration result', async () => {
+        const userEmail = await page.locator('//table//td[contains(text(),"mint123@example.com")]').textContent();
+        expect(userEmail).toEqual('mint123@example.com');
+    });
+
 });
